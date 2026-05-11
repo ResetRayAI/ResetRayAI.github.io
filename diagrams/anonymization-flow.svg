@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" fill="#070b12"/>
+  <style>
+    .box{fill:#101827;stroke:#9f7bff;stroke-width:2;rx:18}
+    .txt{fill:#eef4ff;font-family:Arial,sans-serif;font-size:23px;font-weight:700}
+    .sub{fill:#9fb2c8;font-family:Arial,sans-serif;font-size:15px}
+    .arr{stroke:#9f7bff;stroke-width:4;marker-end:url(#arrow)}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#9f7bff"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="70" y="110" width="230" height="110"/>
+  <text class="txt" x="115" y="155">DICOM Data</text>
+  <text class="sub" x="110" y="185">metadata + pixels</text>
+
+  <line class="arr" x1="315" y1="165" x2="410" y2="165"/>
+
+  <rect class="box" x="430" y="110" width="250" height="110"/>
+  <text class="txt" x="470" y="155">De-identification</text>
+  <text class="sub" x="485" y="185">semantic concept</text>
+
+  <line class="arr" x1="695" y1="165" x2="790" y2="165"/>
+
+  <rect class="box" x="810" y="110" width="310" height="110"/>
+  <text class="txt" x="865" y="155">Structured Export</text>
+  <text class="sub" x="885" y="185">anonymized technical data</text>
+
+  <text class="sub" x="330" y="300">Public semantic diagram only — no production anonymization implementation details.</text>
+</svg>
