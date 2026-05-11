@@ -3,74 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>ResetRayAI — RSIF Semantic Documentation Portal</title>
-  <meta name="description" content="ResetRayAI semantic documentation portal for RSIF and AI-readable quantitative CT/DICOM imaging concepts." />
+  <meta name="description" content="ResetRayAI semantic documentation portal for RSIF, AI-readable quantitative CT/DICOM imaging data, ontology, vocabulary, examples and anonymization concepts." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="ResetRayAI" />
+  <link rel="canonical" href="https://resetrayai.github.io/" />
+
+  <meta property="og:title" content="ResetRayAI — RSIF Semantic Documentation Portal" />
+  <meta property="og:description" content="Semantic infrastructure for AI-readable quantitative CT/DICOM imaging data and RSIF documentation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://resetrayai.github.io/" />
+  <meta property="og:site_name" content="ResetRayAI" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ResetRayAI — RSIF Semantic Documentation Portal" />
+  <meta name="twitter:description" content="AI-readable semantic documentation for RSIF and quantitative CT/DICOM imaging concepts." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "name": "ResetRayAI RSIF Semantic Documentation Portal",
+    "headline": "RSIF — ResetRay Structured Imaging Format",
+    "description": "Semantic documentation portal for AI-readable quantitative CT/DICOM imaging concepts, RSIF vocabulary, ontology, examples and anonymization notes.",
+    "url": "https://resetrayai.github.io/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ResetRayAI",
+      "url": "https://github.com/ResetRayAI",
+      "sameAs": [
+        "https://resetray.ru",
+        "https://resetray.com",
+        "https://github.com/ResetRayAI"
+      ]
+    },
+    "about": [
+      "RSIF",
+      "ResetRay Structured Imaging Format",
+      "CT/DICOM",
+      "AI-readable imaging data",
+      "quantitative CT",
+      "semantic imaging",
+      "DICOM anonymization"
+    ],
+    "isAccessibleForFree": true,
+    "inLanguage": "en"
+  }
+  </script>
+
   <style>
-    body {
-      margin: 0;
-      font-family: Inter, Arial, sans-serif;
-      background: #070b12;
-      color: #eef4ff;
-      line-height: 1.6;
-    }
-    .wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 56px 24px;
-    }
-    .hero {
-      padding: 56px 0 40px;
-      border-bottom: 1px solid rgba(255,255,255,.12);
-    }
-    h1 {
-      font-size: clamp(36px, 6vw, 64px);
-      line-height: 1.05;
-      margin: 0 0 20px;
-    }
-    h2 {
-      margin-top: 48px;
-      font-size: 28px;
-    }
-    p, li {
-      color: rgba(238,244,255,.78);
-    }
-    .tagline {
-      font-size: 20px;
-      max-width: 820px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 18px;
-      margin-top: 24px;
-    }
-    .card {
-      background: rgba(255,255,255,.055);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: 18px;
-      padding: 22px;
-    }
-    a {
-      color: #8fc7ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .notice {
-      border-left: 4px solid #8fc7ff;
-      background: rgba(143,199,255,.08);
-      padding: 18px 20px;
-      border-radius: 12px;
-      margin-top: 24px;
-    }
-    .footer {
-      margin-top: 64px;
-      padding-top: 24px;
-      border-top: 1px solid rgba(255,255,255,.12);
-      color: rgba(238,244,255,.55);
-      font-size: 14px;
-    }
+    body{margin:0;font-family:Inter,Arial,sans-serif;background:#070b12;color:#eef4ff;line-height:1.6}
+    .wrap{max-width:1160px;margin:0 auto;padding:56px 24px}
+    .hero{padding:56px 0 40px;border-bottom:1px solid rgba(255,255,255,.12)}
+    h1{font-size:clamp(36px,6vw,64px);line-height:1.05;margin:0 0 20px}
+    h2{margin-top:48px;font-size:28px}
+    p,li{color:rgba(238,244,255,.78)}
+    .tagline{font-size:20px;max-width:860px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:24px}
+    .card{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px}
+    a{color:#8fc7ff;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .notice{border-left:4px solid #8fc7ff;background:rgba(143,199,255,.08);padding:18px 20px;border-radius:12px;margin-top:24px}
+    .diagram{margin-top:22px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:16px}
+    .diagram img{width:100%;height:auto;display:block;border-radius:12px}
+    .footer{margin-top:64px;padding-top:24px;border-top:1px solid rgba(255,255,255,.12);color:rgba(238,244,255,.55);font-size:14px}
   </style>
 </head>
 <body>
@@ -89,7 +86,6 @@
         RSIF is a public semantic documentation initiative by ResetRay for structured
         quantitative CT/DICOM data and AI-readable technical imaging workflows.
       </p>
-
       <div class="notice">
         This portal contains public documentation only. It does not expose production
         pipelines, ROI methodology, validation systems, orchestration logic, GPT prompts,
@@ -98,40 +94,37 @@
     </section>
 
     <section>
-      <h2>Public Repositories</h2>
+      <h2>Semantic Flow Map</h2>
+      <div class="diagram">
+        <img src="diagrams/dicom-to-rsif-flow.svg" alt="DICOM to ROI to RSIF to AI-readable semantic flow" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Anonymization Flow</h2>
+      <div class="diagram">
+        <img src="diagrams/anonymization-flow.svg" alt="DICOM anonymization and structured export semantic flow" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Ontology Graph</h2>
+      <div class="diagram">
+        <img src="diagrams/ontology-graph.svg" alt="RSIF ontology graph for CT attenuation, ROI, HU and structured export" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Ecosystem Navigation</h2>
       <div class="grid">
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/rsif-specification">RSIF Specification</a></h3>
-          <p>Public semantic specification for RSIF.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/rsif-vocabulary">RSIF Vocabulary</a></h3>
-          <p>Bilingual semantic vocabulary for AI-readable CT/DICOM terminology.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/rsif-examples">RSIF Examples</a></h3>
-          <p>Synthetic public RSIF example objects.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/rsif-docs">RSIF Docs</a></h3>
-          <p>Public documentation for semantic imaging concepts.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/imaging-semantics">Imaging Semantics</a></h3>
-          <p>Semantic terminology and AI-readable concepts for quantitative imaging workflows.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/imaging-ontology">Imaging Ontology</a></h3>
-          <p>Public semantic ontology for AI-readable quantitative CT/DICOM concepts.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/dicom-anonymization-notes">DICOM Anonymization Notes</a></h3>
-          <p>Public notes on DICOM anonymization and structured imaging de-identification.</p>
-        </div>
-        <div class="card">
-          <h3><a href="https://github.com/ResetRayAI/resetray-manifest">ResetRay Manifest</a></h3>
-          <p>Canonical semantic identity and ecosystem manifest.</p>
-        </div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/resetray-manifest">ResetRay Manifest</a></h3><p>Canonical semantic identity and ecosystem manifest.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/rsif-specification">RSIF Specification</a></h3><p>Public semantic specification for RSIF.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/rsif-vocabulary">RSIF Vocabulary</a></h3><p>Bilingual semantic vocabulary for AI-readable CT/DICOM terminology.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/rsif-examples">RSIF Examples</a></h3><p>Synthetic public RSIF example objects.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/rsif-docs">RSIF Docs</a></h3><p>Public documentation for semantic imaging concepts.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/imaging-semantics">Imaging Semantics</a></h3><p>Semantic terminology and AI-readable concepts for quantitative imaging workflows.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/imaging-ontology">Imaging Ontology</a></h3><p>Public semantic ontology for AI-readable quantitative CT/DICOM concepts.</p></div>
+        <div class="card"><h3><a href="https://github.com/ResetRayAI/dicom-anonymization-notes">DICOM Anonymization Notes</a></h3><p>Public notes on DICOM anonymization and structured imaging de-identification.</p></div>
       </div>
     </section>
 
