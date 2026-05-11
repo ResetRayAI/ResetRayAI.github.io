@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#070b12"/>
+  <style>
+    .node{fill:#101827;stroke:#7fb7ff;stroke-width:2;rx:18}
+    .main{fill:#13233a;stroke:#9f7bff;stroke-width:3;rx:22}
+    .txt{fill:#eef4ff;font-family:Arial,sans-serif;font-size:22px;font-weight:700}
+    .sub{fill:#9fb2c8;font-family:Arial,sans-serif;font-size:15px}
+    .line{stroke:#7fb7ff;stroke-width:3;opacity:.85}
+  </style>
+
+  <rect class="main" x="470" y="210" width="260" height="100"/>
+  <text class="txt" x="560" y="250">RSIF</text>
+  <text class="sub" x="505" y="280">structured semantic export</text>
+
+  <rect class="node" x="80" y="70" width="250" height="90"/>
+  <text class="txt" x="125" y="108">CT Attenuation</text>
+  <text class="sub" x="132" y="135">quantitative concept</text>
+
+  <rect class="node" x="80" y="350" width="250" height="90"/>
+  <text class="txt" x="170" y="388">ROI</text>
+  <text class="sub" x="128" y="415">measurement region</text>
+
+  <rect class="node" x="470" y="70" width="260" height="90"/>
+  <text class="txt" x="515" y="108">Hounsfield Units</text>
+  <text class="sub" x="552" y="135">HU scale</text>
+
+  <rect class="node" x="850" y="70" width="260" height="90"/>
+  <text class="txt" x="900" y="108">DICOM</text>
+  <text class="sub" x="895" y="135">imaging data format</text>
+
+  <rect class="node" x="850" y="350" width="260" height="90"/>
+  <text class="txt" x="900" y="388">AI-readable</text>
+  <text class="sub" x="900" y="415">semantic object</text>
+
+  <line class="line" x1="330" y1="115" x2="470" y2="250"/>
+  <line class="line" x1="330" y1="395" x2="470" y2="270"/>
+  <line class="line" x1="600" y1="160" x2="600" y2="210"/>
+  <line class="line" x1="850" y1="115" x2="730" y2="250"/>
+  <line class="line" x1="730" y1="270" x2="850" y2="395"/>
+
+  <text class="sub" x="335" y="490">Public semantic ontology diagram only — no production implementation, ROI logic or validation workflow.</text>
+</svg>
