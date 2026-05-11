@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://resetrayai.github.io/sitemap.xml
