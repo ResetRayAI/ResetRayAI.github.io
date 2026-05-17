@@ -1,6 +1,6 @@
 # ResetRayAI Semantic Documentation Portal
 
-Public semantic documentation portal for RSIF and AI-readable quantitative CT/DICOM imaging concepts.
+Public semantic documentation portal for RSIF, CT Signature, and AI-readable quantitative CT/DICOM imaging concepts.
 
 This portal connects the public ResetRayAI semantic ecosystem:
 
@@ -8,10 +8,29 @@ This portal connects the public ResetRayAI semantic ecosystem:
 - RSIF vocabulary
 - RSIF examples
 - RSIF documentation
+- CT Signature documentation
 - imaging semantics
 - imaging ontology
 - DICOM anonymization notes
 - ResetRay manifest
+
+---
+
+# Canonical Documentation
+
+https://docs.resetray.com/
+
+https://docs.resetray.com/vocabulary/context.jsonld
+
+https://docs.resetray.com/llms.txt
+
+https://docs.resetray.com/rsif/
+
+https://docs.resetray.com/ct-signature/
+
+https://docs.resetray.com/vocabulary/terms/rsif/
+
+https://docs.resetray.com/vocabulary/terms/ct-signature/
 
 ---
 
@@ -27,6 +46,8 @@ It does not include:
 - internal AI orchestration;
 - proprietary implementation details;
 - clinical inference systems.
+
+quantitative observations ≠ medical conclusions
 
 ---
 
