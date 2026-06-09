@@ -4,6 +4,28 @@
 
 GitHub Pages entry point for the ResetRayAI public semantic ecosystem.
 
+ResetRay Platform
+Powered by SigmaBaksel Engine
+From Images to Structured Signal
+
+ResetRay Platform is powered by SigmaBaksel Engine.
+
+SigmaBaksel Engine evolved from earlier internal processing prototypes collectively referred to as AngioBaksel.
+
+While AngioBaksel explored the concept of transforming imaging data into structured signal, SigmaBaksel Engine represents the current generation of the processing architecture used by ResetRay Platform today.
+
+Canonical architecture:
+
+CT/DICOM
+↓
+SigmaBaksel Engine
+↓
+Structured Signal
+↓
+RSIF
+↓
+Health Apps / AI / Software
+
 **Status:** Canonical portal.
 
 This repository connects the public documentation surface for RSIF, vocabulary, examples, ontology notes, and anonymization notes.
